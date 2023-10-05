@@ -9,8 +9,8 @@ class Component <T> {
 }
 
 class Page extends Component <IProps> {
-  pageInfo (): string {
-    return this.props.title;
+  pageInfo (): void {
+    console.log(this.props.title);
   }
 }
 
